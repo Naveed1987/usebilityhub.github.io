@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(91, 91, 194);
+}
+.navbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+
+}
+.navbar ul li{
+   
+    font-size: 1.2rem;
+    list-style: none;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn{
+    border-radius: 18px;
+    font-weight: 400;
+    color: brown;
+    width: 100px;
+    height: 50px;
+}
+.main-container{
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.container3{
+    margin-top: 20px;
+}
+.container3 img{
+    margin-left: 200px;
+}
+.container4{
+    margin-top: 50px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    padding:20px;
+    gap:10px;
+
+}
+.icon p{
+    text-align:center;
+}
+.container6{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.mydiv{
+    display: flex;
+    flex-direction: column;
+}
+.mydiv p{
+    text-align: justify;
+}
+.container7{
+    height: 300px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(120, 120, 247);
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.myfooter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.foot{
+    
+}
+.myfooter li{
+    list-style: none;
+    padding: 8px;
+   
+}
+.myfooter li a{
+    text-decoration: none;
+    color: black;
+}
+.subfooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 60px;
+    background-color: rgb(34, 24, 24);
+    color: white;
+}
